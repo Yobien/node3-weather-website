@@ -19,7 +19,7 @@ const messageTwo = document.querySelector('#message-2')
 
 
 weatherForm.addEventListener('submit', (event) => {
-    event.preventDefault() // permet au browser de ne pas se refraichir apres une recherche, il "handle".
+    event.preventDefault() // permet au browser de ne pas se refraichir apres une recherche, il "handle"
 
     const location = search.value
 
