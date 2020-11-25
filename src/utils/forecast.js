@@ -13,7 +13,6 @@ const forecast = (latitude, longitude, cb) => {
             cb(null, body.current.weather_descriptions[0] + ". The temperature is : " + body.current.temperature + " degress. It feels like " + body.current.feelslike + " degress.")
         }
     })
-
 }
 
 
