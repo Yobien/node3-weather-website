@@ -10,7 +10,7 @@ const forecast = (latitude, longitude, cb) => {
             console.log(body.error)
             cb("Unable to find location.", null)
         } else {
-            cb(null, body.current.weather_descriptions[0] + ". The temperature is : " + body.current.temperature + " degres. It feels like " + body.current.feelslike + " degress. " + "The humidity is : " + body.current.humidity + "%")
+            cb(null, body.current.weather_descriptions[0] + ". The temperature is : " + body.current.temperature + " degres. It feels like " + body.current.feelslike + " degres. " + "The humidity is : " + body.current.humidity + "%")
         }
     })
 
